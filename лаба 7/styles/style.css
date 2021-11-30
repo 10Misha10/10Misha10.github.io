@@ -220,6 +220,9 @@ img{
         display: flex;
         flex-direction: column;
     }
+    .statistic_text{
+        font-size: 12px;
+    }
 }
 
 /*images*/
@@ -355,6 +358,9 @@ img{
     .col-md-2 a:not(:last-child){
         padding-right: 280px;
     }
+}
+.col-md-2 a i{
+    line-height: 20px;
 }
 
 /*scroll*/
