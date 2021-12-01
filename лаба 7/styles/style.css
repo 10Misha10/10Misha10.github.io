@@ -20,7 +20,8 @@ img{
 .logo{
     width: 100%;
     height: 280px;
-    background: url("../images/logo2.jpg");
+    /* background: linear-gradient(0deg, cornsilk 1px, rgba(0, 0, 0, 0)), url("../images/logo.jpg"); */
+    background: url("../images/logo.jpg");
     background-position: center center;
     background-size: cover;
     display: flex;
@@ -32,6 +33,7 @@ img{
     font-size: 3.7rem;
     color: burlywood;
     animation: text1 3s 1;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
     font-style: oblique;
 }
 @keyframes text1{
@@ -138,6 +140,16 @@ img{
         padding-top: 2.5%;
     }
 }
+@media(min-width: 1900px){
+    .nav{
+        padding-top: 2%;
+    }
+}
+@media(min-width: 2100px){
+    .nav{
+        padding-top: 1%;
+    }
+}
 
 /*statia*/
 .first_part{
@@ -162,7 +174,7 @@ img{
     padding-left: 10%;
     padding-top: 3%;
 }
-@media(max-width: 1500px){
+@media(max-width: 1550px){
     .history_img{
         padding-top: 2%;
         width: 80%;
@@ -172,10 +184,16 @@ img{
     }
    
 }
+@media(min-width: 1900px){
+    .history_img{
+        padding-top: 1%;
+        width: 40%;
+    }
+}
 .secrion_container h2{
     font-size: 300%;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 40px;
 } 
 #article{
     font-size: 180%;
@@ -213,7 +231,15 @@ img{
     text-transform: uppercase;
     letter-spacing: 1px;
     /* font-size: 20px; */
-     font-family: FreeMono, monospace; 
+    font-family: FreeMono, monospace; 
+}
+@media(min-width: 1300px){
+    .statistic_text{
+        font-size: 25px;
+    }
+    .statictic_number{
+        font-size: 60px;
+    }
 }
 @media(max-width: 979px){
     .container2{
@@ -387,4 +413,10 @@ img{
 }
 .arrowUp i{
     color: black;
+}
+@media(max-width: 1000px){
+    .arrowUp{
+        width: 60px;
+        height: 60px;
+    }
 }
