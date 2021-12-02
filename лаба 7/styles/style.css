@@ -171,7 +171,9 @@ img{
 }
 .history_text{
     max-width: 40%;
-    padding-left: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
     padding-top: 3%;
 }
 @media(max-width: 1550px){
