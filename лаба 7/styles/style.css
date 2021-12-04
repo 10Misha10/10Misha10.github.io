@@ -183,6 +183,7 @@ img{
     }
     .history_text{
         max-width: 100%;
+        margin-left: 10px;
     }
    
 }
