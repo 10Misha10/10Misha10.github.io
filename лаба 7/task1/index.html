@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Наш уютный отель предоставляет все необходимые услуги для комфортного отдыха или работы. Вы можете заказать номер в любое удобное для вас время из любой точки мира. Если желаете хорошо отдохнуть и не переплачивать, то вы пришли по адресу.">
+    <meta name="keywords" content="Отель,hotel,Отель Италия,Отдых,Отдых в Италии,Отель Мэри Италия" />
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#f78c13">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#e9a737">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="js/main_script.js"></script>
+    <title>Hotel of Mary</title>
+</head>
+<body>
+        <div class="logo" id="logo">   <!-- header -->
+            <h1>Hotel of Mary</h1>
+            <h2>Welcome</h2>
+            <nav class="nav">
+                <a class="nav_link" target="blank" href="https://www.google.com/maps/place/Hotel+Mary/@45.4868329,12.2969063,17z/data=!4m8!3m7!1s0x477eb3c0a3f27b8f:0xdfafd3be42f5ef5e!5m2!4m1!1i2!8m2!3d45.4869088!4d12.2959587">Как доехать</a>
+                <a class="nav_link" href="#" onclick="registracion();">Заказать номер</a>
+            </nav>
+        </div>
+
+        <div class="secrion_container"> <!-- content -->
+            <div class="first_part">
+                <div class="history_img">
+                    <img src="images/hotel_best_quality.jpg" alt="hotel">
+                </div>
+                <div class="history_text">
+                    <h2>Краткая история</h2>
+                    <p id="article">
+                        Началом истории нашего отеля можно считать зарождение его идеи
+                        в голове у моей бабушки Мэри. Изначально это был просто дом, доставшийся ей
+                        по наследству от родителей. Она жила спокойной и размеренной жизнью, ухаживала за садом,
+                        много читала, старалась как можно чаще звонить внукам и детям. И так, в один из таких
+                        ничем не примечательных дней ей пришла идея открытия собственного заведения, где
+                        люди могли бы так же отдыхать, не думая ни о чем. За перестройку здания взялись
+                        практически сразу и уже через два года отель был готов принимать гостей. Это
+                        место стало популярным практически с первого дня открытия. И вот, по сей день
+                        отель не утратил свою популярность.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="statistic">  <!-- statistic -->
+            <div class="container2">
+                <div class="statistic_item" id="stat1">
+                    <div class="statictic_number">55</div>
+                    <div class="statistic_text">лет работы</div>
+                </div>
+                <div class="statistic_item" id="stat2">
+                    <div class="statictic_number">28</div>
+                    <div class="statistic_text">членов команды</div>
+                </div>
+                <div class="statistic_item" id="stat3">
+                    <div class="statictic_number">120</div>
+                    <div class="statistic_text">довольных  клиентов<br>каждый  месяц</div>
+                </div>
+                <div class="statistic_item" id="stat4">
+                    <div class="statictic_number">32</div>
+                    <div class="statistic_text">номера</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="about">  <!-- about -->
+            <div class="about_item">
+                <div class="about_text">Бюджетный</div>
+                <img src="images/room1_best_quality.jpg" alt="about" class="img">
+            </div>
+            <div class="about_item">
+                <img src="images/room2_best_quality.jpg" alt="about" class="img">
+                <div class="about_text">Люкс</div>
+            </div>
+            <div class="about_item" id="div_img3">
+                <img src="images/room3.jpeg" alt="about" class="img">
+                <div class="about_text">Президентский</div>
+            </div>
+        </div>
+
+
+        <footer class="footer">  <!-- footer -->
+            <div class="container3">
+                <div class="row">
+                    <div class="col-md-1">
+                        <h3>Hotel of Mary</h3>
+                        <div class="connection">
+                            <a target="blank" href="https://ru-ru.facebook.com/MaryHotel/"><i class="fab fa-facebook-f"></i></a>
+                            <a target="blank" href="https://www.instagram.com/maryhotelgroup/"><i class="fab fa-instagram"></i></a>
+                            <a target="blank" href="https://twitter.com/hotel_mary"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="tel:+393692581"><i class="fa fa-phone" aria-hidden="true">+39 (33) 369-25-81</i></a>
+                        <a target="blank" href="https://www.google.com/maps/place/Hotel+Mary/@45.4868329,12.2969063,17z/data=!4m8!3m7!1s0x477eb3c0a3f27b8f:0xdfafd3be42f5ef5e!5m2!4m1!1i2!8m2!3d45.4869088!4d12.2959587"><i class="fa fa-map-marker">Via Orlanda 152, 30173 Кампальто, Италия</i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#" class="arrowUp" id="scrollTop">  <!-- scroll -->
+            <i class="fas fa-angle-double-up"></i>
+        </a>
+</body>
+</html>
